@@ -1,32 +1,15 @@
-<!DOCTYPE HTML>
-<HTML>
-<HEAD>
-<TITLE>PYTHON PROJECTS
-</TITLE>
-</HEAD>
-<BODY>NAME: ANDANJE LEWIS ANYANJE<BR>
-EMAIL ADDRESS:andanjelewis3@gmail.com<BR>
-MOTHER:OLUNGA DINAH AMWAYI<BR>
-COUNTY OF BIRTH: KAKAMEGA<BR>
-CONSTITUENCY: KHWISERO<BR>
-D.O.B:30TH AUGUST 2004<BR>
-CAMPUS:CUEA(CATHOLIC UNIVERSITY OF EASTERN AFRICA)<BR>
-HIGH SCHOOL:NYANGORI BOYS<BR>
-PHONE NUMBER:0740738933<BR>
-POSTAL ADDRESS:P.O.BOX 81 KWISERO<BR>
-<img src='myimages/lewis.img.png'/>
-
-</BODY>
-
-
-
-
-
-
-
-
-
-
-
-
-</HTML>
+command = ''
+while command.lower() != "quit":
+    command = input('> ').lower()
+    if command == "start":
+        print('The car started......')
+    elif command == "stop":
+        print('the car stopped.')
+    elif command == "help":
+        print('start - to start the car')
+        print('stop - to stop the car')
+        print('quit to exit the game')
+    elif command == "quit":
+        print('Exit the game')
+    else:
+        print('invalid command')
